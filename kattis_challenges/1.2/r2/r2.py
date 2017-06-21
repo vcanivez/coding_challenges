@@ -2,7 +2,9 @@
 import sys
 from sys import stdin
 
-r = stdin.readline()
-s = stdin.readline()
+line = stdin.readline()
+rs = line.split()
+r = rs[0]
+s = rs[1]
 
 print(int(s)*2-int(r))
